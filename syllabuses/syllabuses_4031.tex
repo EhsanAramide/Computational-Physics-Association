@@ -1,0 +1,52 @@
+% See `LICENCE' file in root directory for more information
+% Only use XeLaTeX compiler 
+\documentclass[a4paper]{article}
+
+% Packages
+% \usepackage{showframe}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{xepersian}
+
+% `xepersian'
+\settextfont[Scale=1]{XB Zar}
+\setlatintextfont[Scale=1]{Junicode}
+\rightfootnoterule
+
+% Document class `article'
+\title{حلقه‌ی فیزیک محاسباتی\RTLthanks{قدرت گرفته از \XePersian}}
+\author{احسان آرمیده}
+\date{مهر ۱۴۰۳ (ترم ۴۰۳۱)}
+
+\linespread{1.5}
+
+\begin{document}
+\maketitle
+
+\prq{}یک دانشمند نباید به نتایج شبیه‌سازی‌اش باور داشته باشد، زمانی که محاسبات پشت آن را درک نکرده است.\plq{}
+{\small \itshape رابین لانداو}\RTLfootnote{Landau H. Rubin}
+\vspace{10pt}
+
+با توجه به اهمیت روزافزون فناوری‌های کامپیوتری در پیش‌برد علوم بنیادی همچون ریاضیات و فیزیک، 
+این مسئولیت احساس شد تا برای اشتراک‌گذاری و یادگیری این موضوع جالب و مدرن حلقه‌ای تشکیل بشود.
+در این حلقه برای یادگیری بهتر و بیشتر، از مطالب ساده‌تر مکانیک کلاسیک شروع میشود. سپس در ترم‌های
+آینده به بررسی مباحث پیچیده‌تر، هم از نظر فیزیکی و هم از نظر کامپیوتری، پرداخته میشود.
+
+در این ترم، به بررسی مطالب زیر میپردازیم:
+
+\begin{center}
+    \begin{tabular}{ | m{0.7cm} | m{2cm} | m{6cm} | }
+        \hline
+        ردیف & مبحث & جزییات \\ \hline
+        ۱ & مروری بر پایتون & مروری بر Syntax زبان پایتون و محیط‌های توسعه‌ی مربوطه \\ \hline
+        ۲ & پکیج‌های محاسبات علمی & پکیج‌های ،NumPy ،SciPy MatPlotLib \\ \hline
+        ۳ & انتگرال و مشتق گیری عددی & بررسی روش‌های مختلف انتگرال و مشتق گیری عددی اعم از اویلر، سیمپسون و \dots \\ \hline
+        ۴ & حل عددی معادلات دیفرانسیل & حل معادلات دیفرانسیل معمولی یا ODE به صورت عددی \\ \hline
+        ۵ & شبیه‌سازی & شبیه‌سازی‌های متنوع و hands-on از سیستم‌های فیزیکی مختلف \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\end{document}
+
+
